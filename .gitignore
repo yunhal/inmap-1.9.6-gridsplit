@@ -1,0 +1,12 @@
+.github/
+README_INMAP.md
+vendor/*
+outputs/
+website/
+cloud/
+docs/
+sr/
+emissions/
+inmap-v1.9.6-darwin-arm64
+inmaputil/test/
+.DS_STORE
