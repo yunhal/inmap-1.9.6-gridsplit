@@ -32,7 +32,7 @@ EmissionsShapefiles = [
 #'/Users/yunhalee/Documents/LOCAETA/RCM/INMAP/evaldata_v1.6.1/2020_nei_emissions/ptnonipm_2.shp', 
 #'/Users/yunhalee/Documents/LOCAETA/RCM/INMAP/evaldata_v1.6.1/2020_nei_emissions/ptegu_1.shp', 
 #'/Users/yunhalee/Documents/LOCAETA/RCM/INMAP/evaldata_v1.6.1/2020_nei_emissions/ptegu_2.shp',
-'/Users/yunhalee/Documents/LOCAETA/CS_emissions/new_NEI_point_oilgas_ptegu_ptnonimps_CCS.shp',
+'/Users/yunhalee/Documents/LOCAETA/CS_emissions/new_NEI_point_oilgas_ptegu_ptnonimps_CCS_noNH3.shp',
 '/Users/yunhalee/Documents/LOCAETA/RCM/INMAP/evaldata_v1.6.1/2020_nei_emissions/livestock_1.shp', 
 '/Users/yunhalee/Documents/LOCAETA/RCM/INMAP/evaldata_v1.6.1/2020_nei_emissions/np_solvents_1.shp', 
 '/Users/yunhalee/Documents/LOCAETA/RCM/INMAP/evaldata_v1.6.1/2020_nei_emissions/fertilizer_1.shp', 
@@ -58,12 +58,12 @@ HTTPAddress = ":8080"
 
 # OutputFile specifies the path to the desired output shapefile location. It can
 # include environment variables.
-OutputFile = "outputs/LA_CCS/2020nei_output_run_steady.shp"
+OutputFile = "outputs/LA_CCS_noNH3/2020nei_output_run_steady.shp"
 
 # LogFile specifies the path to the desired logfile location. It can include
 # environment variables. If LogFile is left blank, the logfile will be saved in
 # the same location as the OutputFile.
-LogFile = "outputs/LA_CCS/logfile_run_steady.log"
+LogFile = "outputs/LA_CCS_noNH3/logfile_run_steady.log"
 
 # OutputVariables specifies which model variables should be included in the
 # output file. Each output variable is defined by the desired name and an

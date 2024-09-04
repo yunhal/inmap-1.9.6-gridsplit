@@ -6,6 +6,7 @@ website/
 cloud/
 docs/
 sr/
+cmd/
 emissions/
 inmap-v1.9.6-darwin-arm64
 inmaputil/test/
