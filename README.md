@@ -1,30 +1,44 @@
-# inmap-1.9.6-gridsplit
 
-This repo contains the subset of INMAP v1.9.6 model source code. **INMAP Air Quality Model**: See the details of INMAP [here](https://inmap.run/)
+# INMAP-1.9.6-gridsplit
 
-I have created this repo because I am going to modify the grid split method. 
+This repository contains a subset of the **INMAP v1.9.6** model source code. The **INMAP Air Quality Model** is designed for spatially distributed air quality modeling. You can find more information about INMAP [here](https://inmap.run/).
 
-# INMAP configuration files created for LOCAETA project
+This repository was created to facilitate modifications to the grid-splitting method, although **no source code modifications have been made yet (as of October 2024).**
 
-Under /eval/ directory, you will see multiple toml files. The ones starting with "nei2020Config_" are the configuration files for LOCAETA, and nei2005 and nei2014 are the config files used to test simulation. The others came with INMAP source code.  
 
-# How to run the INMAP simulation
-The config file under /eval/ is the key file for INMAP simulation. Once you customize it for your INMAP simulations (e.g., emissions file path), you can run this command in the main directory: 
+## INMAP Configuration Files for the LOCAETA Project
+
+In the `/eval/` directory, you will find several TOML configuration files:
+
+- Files starting with `nei2020Config_` are specifically created for the LOCAETA project.
+- Files labeled `nei2005` and `nei2014` were used for testing simulations.
+- Other configuration files came with the original INMAP source code.
+
+These configuration files are essential for customizing and running INMAP simulations tailored to the LOCAETA project.
+
+## Running INMAP Simulations
+
+To run an INMAP simulation, you need to customize the configuration file under the `/eval/` directory. Modify the file to fit your simulation needs, such as setting the path to your emissions file. After making the necessary adjustments, you can run the simulation from the main directory using the following command:
 
 ```
-./inmap run steady -s --config ../eval/nei2020Config_LA_CCS.toml 
+./inmap run steady -s --config ../eval/nei2020Config_LA_CCS.toml
 ```
 
-If you run this model in your macbook, please add "caffeinate -i" beofre the command, so the run is not interrupted.  
+### Running INMAP on macOS
 
+If you are running the INMAP model on a MacBook, I recommend you to use the `caffeinate` command to prevent your computer from sleeping during long simulations. The adjusted command would be:
+
+```
+caffeinate -i ./inmap run steady -s --config ../eval/nei2020Config_LA_CCS.toml
+```
 
 ## Contact Information
 
-For any questions or further information regarding this repository, please contact:
+For any questions or further information regarding this repository, feel free to reach out:
 
 **Yunha Lee**  
 **Research Scientist**  
-**yunha.lee@carbonsolutionsllc.com**  
-**Carbon Solutions**
+**Carbon Solutions**  
+Email: [yunha.lee@carbonsolutionsllc.com](mailto:yunha.lee@carbonsolutionsllc.com)
 
 
