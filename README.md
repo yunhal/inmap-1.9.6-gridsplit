@@ -1,8 +1,7 @@
 # inmap-1.9.6-gridsplit
 
 This repo contains the subset of INMAP v1.9.6 model source code. **INMAP Air Quality Model**: See the details of INMAP [here](https://inmap.run/)
-
-I have created this repo because I am going to modify the grid split method. 
+I have created this repo because I am going to modify the grid split method, but **no source code has been modified yet (As of Oct 2024).**
 
 # INMAP configuration files created for LOCAETA project
 
