@@ -1,7 +1,7 @@
-
 # INMAP-1.9.6-gridsplit
 
 This repository contains a subset of the **INMAP v1.9.6** model source code. The **INMAP Air Quality Model** is designed for spatially distributed air quality modeling. You can find more information about INMAP [here](https://inmap.run/).
+
 
 This repository was created to facilitate modifications to the grid-splitting method, although **no source code modifications have been made yet (as of October 2024).**
 
