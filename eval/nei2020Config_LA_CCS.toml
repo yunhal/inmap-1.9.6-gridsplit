@@ -25,22 +25,15 @@ EmissionsShapefiles = [
 '/Users/yunhalee/Documents/LOCAETA/RCM/INMAP/evaldata_v1.6.1/2020_nei_emissions/ptfire-wild_1.shp', 
 '/Users/yunhalee/Documents/LOCAETA/RCM/INMAP/evaldata_v1.6.1/2020_nei_emissions/ptfire-rx_1.shp', 
 '/Users/yunhalee/Documents/LOCAETA/RCM/INMAP/evaldata_v1.6.1/2020_nei_emissions/cmv_c1c2_1.shp', 
-'/Users/yunhalee/Documents/LOCAETA/RCM/INMAP/evaldata_v1.6.1/2020_nei_emissions/ptfire_othna_1.shp',
-"/Users/yunhalee/Documents/LOCAETA/RCM/INMAP/evaldata_v1.6.1/2020_nei_emissions/ptfire_othna_2.shp", 
-#'/Users/yunhalee/Documents/LOCAETA/RCM/INMAP/evaldata_v1.6.1/2020_nei_emissions/pt_oilgas_1.shp',
-#'/Users/yunhalee/Documents/LOCAETA/RCM/INMAP/evaldata_v1.6.1/2020_nei_emissions/ptnonipm_1.shp', 
-#'/Users/yunhalee/Documents/LOCAETA/RCM/INMAP/evaldata_v1.6.1/2020_nei_emissions/ptnonipm_2.shp', 
-#'/Users/yunhalee/Documents/LOCAETA/RCM/INMAP/evaldata_v1.6.1/2020_nei_emissions/ptegu_1.shp', 
-#'/Users/yunhalee/Documents/LOCAETA/RCM/INMAP/evaldata_v1.6.1/2020_nei_emissions/ptegu_2.shp',
-'/Users/yunhalee/Documents/LOCAETA/CS_emissions/new_NEI_point_oilgas_ptegu_ptnonimps_CCS.shp',
+'/Users/yunhalee/Documents/LOCAETA/CS_emissions/LA_CCS.shp',
+'/Users/yunhalee/Documents/LOCAETA/CS_emissions/USA_CCS_without_LA.shp',
 '/Users/yunhalee/Documents/LOCAETA/RCM/INMAP/evaldata_v1.6.1/2020_nei_emissions/livestock_1.shp', 
 '/Users/yunhalee/Documents/LOCAETA/RCM/INMAP/evaldata_v1.6.1/2020_nei_emissions/np_solvents_1.shp', 
 '/Users/yunhalee/Documents/LOCAETA/RCM/INMAP/evaldata_v1.6.1/2020_nei_emissions/fertilizer_1.shp', 
-#'/Users/yunhalee/Documents/LOCAETA/RCM/INMAP/evaldata_v1.6.1/2020_nei_emissions/afdust_1.shp', 
 '/Users/yunhalee/Documents/LOCAETA/RCM/INMAP/evaldata_v1.6.1/2020_nei_emissions/2020ha2_cb6_20k_afdust_adj_12US1_annual.shp', 
 '/Users/yunhalee/Documents/LOCAETA/RCM/INMAP/evaldata_v1.6.1/2020_nei_emissions/nonroad_1.shp', 
 '/Users/yunhalee/Documents/LOCAETA/RCM/INMAP/evaldata_v1.6.1/2020_nei_emissions/nonroad_2.shp',
-'/Users/yunhalee/Documents/LOCAETA/RCM/INMAP/evaldata_v1.6.1/2020_nei_emissions/2020ha_cb6_20k_rail_12US1_annual.shp',
+'/Users/yunhalee/Documents/LOCAETA/RCM/INMAP/evaldata_v1.6.1/2020_nei_emissions/2020ha_cb6_20k_rail_12US1_annual.shp', 
 '/Users/yunhalee/Documents/LOCAETA/RCM/INMAP/evaldata_v1.6.1/2020_nei_emissions/2020ha2_cb6_20k_onroad_ca_adj_diesel_12US1_annual.shp',
 '/Users/yunhalee/Documents/LOCAETA/RCM/INMAP/evaldata_v1.6.1/2020_nei_emissions/2020ha2_cb6_20k_onroad_ca_adj_gas_12US1_annual.shp',
 '/Users/yunhalee/Documents/LOCAETA/RCM/INMAP/evaldata_v1.6.1/2020_nei_emissions/2020ha2_cb6_20k_onroad_diesel_12US1_annual.shp',
@@ -51,7 +44,7 @@ EmissionsShapefiles = [
 EmissionUnits = "tons/year"
 
 # HTTPAddress is the address for hosting the HTML user interface.
-# If HTTPAddress is `:8080`, then the GUI 
+# If HTTPAddress is `:8080`, then the GUI
 # would be viewed by visiting `localhost:8080` in a web browser.
 # If HTTPport is "", then the web server doesn't run.
 HTTPAddress = ":8080"

@@ -25,15 +25,14 @@ EmissionsShapefiles = [
 '/Users/yunhalee/Documents/LOCAETA/RCM/INMAP/evaldata_v1.6.1/2020_nei_emissions/ptfire-wild_1.shp', 
 '/Users/yunhalee/Documents/LOCAETA/RCM/INMAP/evaldata_v1.6.1/2020_nei_emissions/ptfire-rx_1.shp', 
 '/Users/yunhalee/Documents/LOCAETA/RCM/INMAP/evaldata_v1.6.1/2020_nei_emissions/cmv_c1c2_1.shp', 
-'/Users/yunhalee/Documents/LOCAETA/CS_emissions/CO_CCS.shp',
-'/Users/yunhalee/Documents/LOCAETA/CS_emissions/USA_CCS_without_CO_CCS.shp',
+'/Users/yunhalee/Documents/LOCAETA/CS_emissions/USA_CCS.shp',
 '/Users/yunhalee/Documents/LOCAETA/RCM/INMAP/evaldata_v1.6.1/2020_nei_emissions/livestock_1.shp', 
 '/Users/yunhalee/Documents/LOCAETA/RCM/INMAP/evaldata_v1.6.1/2020_nei_emissions/np_solvents_1.shp', 
 '/Users/yunhalee/Documents/LOCAETA/RCM/INMAP/evaldata_v1.6.1/2020_nei_emissions/fertilizer_1.shp', 
 '/Users/yunhalee/Documents/LOCAETA/RCM/INMAP/evaldata_v1.6.1/2020_nei_emissions/2020ha2_cb6_20k_afdust_adj_12US1_annual.shp', 
 '/Users/yunhalee/Documents/LOCAETA/RCM/INMAP/evaldata_v1.6.1/2020_nei_emissions/nonroad_1.shp', 
 '/Users/yunhalee/Documents/LOCAETA/RCM/INMAP/evaldata_v1.6.1/2020_nei_emissions/nonroad_2.shp',
-'/Users/yunhalee/Documents/LOCAETA/RCM/INMAP/evaldata_v1.6.1/2020_nei_emissions/2020ha_cb6_20k_rail_12US1_annual.shp',
+'/Users/yunhalee/Documents/LOCAETA/RCM/INMAP/evaldata_v1.6.1/2020_nei_emissions/2020ha_cb6_20k_rail_12US1_annual.shp', 
 '/Users/yunhalee/Documents/LOCAETA/RCM/INMAP/evaldata_v1.6.1/2020_nei_emissions/2020ha2_cb6_20k_onroad_ca_adj_diesel_12US1_annual.shp',
 '/Users/yunhalee/Documents/LOCAETA/RCM/INMAP/evaldata_v1.6.1/2020_nei_emissions/2020ha2_cb6_20k_onroad_ca_adj_gas_12US1_annual.shp',
 '/Users/yunhalee/Documents/LOCAETA/RCM/INMAP/evaldata_v1.6.1/2020_nei_emissions/2020ha2_cb6_20k_onroad_diesel_12US1_annual.shp',
@@ -44,19 +43,19 @@ EmissionsShapefiles = [
 EmissionUnits = "tons/year"
 
 # HTTPAddress is the address for hosting the HTML user interface.
-# If HTTPAddress is `:8080`, then the GUI 
+# If HTTPAddress is `:8080`, then the GUI
 # would be viewed by visiting `localhost:8080` in a web browser.
 # If HTTPport is "", then the web server doesn't run.
 HTTPAddress = ":8080"
 
 # OutputFile specifies the path to the desired output shapefile location. It can
 # include environment variables.
-OutputFile = "outputs/CO_CCS/2020nei_output_run_steady.shp"
+OutputFile = "outputs/USA_CCS/2020nei_output_run_steady.shp"
 
 # LogFile specifies the path to the desired logfile location. It can include
 # environment variables. If LogFile is left blank, the logfile will be saved in
 # the same location as the OutputFile.
-LogFile = "outputs/CO_CCS/logfile_run_steady.log"
+LogFile = "outputs/USA_CCS/logfile_run_steady.log"
 
 # OutputVariables specifies which model variables should be included in the
 # output file. Each output variable is defined by the desired name and an
